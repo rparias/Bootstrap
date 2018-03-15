@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Grid</title>
+    <style>
+        .row > div {
+            background: #f2f2f2;
+            margin: 10px 0px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- El container es el contenedor principal, en el iran todas las filas y columnas -->
+    <!-- Con el container se puede centrar la pagina -->
+    <div class="container">
+        <!-- Las filas (row) son grupos HORIZONTALES de columnas -->
+        <div class="row">
+            <!-- Todo el contenido debe ir dentro de columnas (col) -->
+            <!-- Las columnas deben ir dentro de las filas (row) -->
+            
+            
+            <!-- TABLA DE TAMAÑOS:
+                Los tamaños de columna en Bootstrap 4 son:
+                .col        (X small) - smartphones vertical    Menos de 544px
+                .col-sm     (Small) - smartphones vertical      Entre 544 px y 768 px
+                .col-md     (Medium) - tablets                  Entre 768 px y 992 px
+                .col-lg     (Large) - Computadoras              Entre 992 px y 1200 px
+                .col-xl     (X Large) - computadoras            Mayor de 1200 px
+            -->
+
+            
+            <div class="col-12 col-sm-6 col-md">
+                    <h1>Hola mundo</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quos cupiditate praesentium, in minus fugit veniam consequatur enim unde voluptatum inventore odio eum iste quia, commodi nulla, possimus repellendus nobis?</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md">
+                    <h1>Hola mundo</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quos cupiditate praesentium, in minus fugit veniam consequatur enim unde voluptatum inventore odio eum iste quia, commodi nulla, possimus repellendus nobis?</p>
+            </div>
+
+            <div class="col-12 col-sm col-md col-xl-12">
+                    <h1>Hola mundo</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quos cupiditate praesentium, in minus fugit veniam consequatur enim unde voluptatum inventore odio eum iste quia, commodi nulla, possimus repellendus nobis?</p>
+            </div>
+        </div>        
+    </div>
+
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
